@@ -1,0 +1,19 @@
+﻿<Window x:Class="DrawCurve.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrawCurve"
+        mc:Ignorable="d"
+     Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized">
+    <Canvas>
+        <InkCanvas x:Name="inkcanvas" Width="1770" Height="1050" EditingMode="None" Margin="150,0" />
+
+
+
+        <Button Click="Button_Click" Height="20" Width="100" Content="Protractor"/>
+        <Button Click="EditingModeSwitchButton_Click" Height="20" Width="150" Content="Select/UnSelect Mode" Margin="0,30"/>
+
+    </Canvas>
+
+</Window>
